@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Portfolio - Xiaoxue Lin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Social Media Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact-form">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="content-section">
+        <div class="about-container">
+            <div class="profile-photo">
+                <img src="IMG_1745.jpg" alt="Xiaoxue Lin Photo">
+            </div>
+            <div class="about-text">
+                <div class="hero-section">
+                    <h1>Xiaoxue Lin</h1>
+                    <p>Experienced Visual Designer & Social Media Specialist</p>
+                </div>
+                <p>I am an experienced visual designer with 7 years in the design industry. I have an in-depth ability to understand and assist clients and businesses from different fields based on the latest trends. I also create content as a social media influencer, and my work has reached millions of people.</p>
+                <a href="#contact" class="cta">Contact Me</a> <!-- Contact Me button retained -->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="content-section">
+        <h2>Social Media Skills</h2>
+        <ul>
+            <li>Social media management: TikTok (Douyin), Kuaishou, Little Red Book, Instagram, WeChat.</li>
+            <li>Analytics and fan engagement growth skills.</li>
+            <li>Video script editing, production, filming, editing, and cover design.</li>
+        </ul>
+    </section>
+
+    <section id="experience" class="content-section">
+        <h2>Experience</h2>
+        <div class="experience-list">
+            <div class="job">
+                <h4>Visual Designer Manager | Shenzhen Aisidi Co., Ltd | 7/2020 - 10/2022</h3>
+                <p>Responsible for marketing planning, team leadership, visual design execution, and international relationship building.</p>
+            </div>
+            <div class="job">
+                <h4>Visual Designer Manager | Aukey Technology Co., Ltd | 7/2017 - 4/2020</h3>
+                <p>Led design projects, handled branding efforts, and managed design teams for Amazon stores, resulting in a 60% sales increase.</p>
+            </div>
+            <div class="job">
+                <h4>Visual Designer | Da-Jiang Innovations | 2015 - 2017</h3>
+                <p>Worked on design materials for RoboMasters competitions, summer camp, and social media activities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-form" class="content-section">
+        <h2>Contact Me</h2>
+        <form action="send_email.php" method="post" class="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer id="contact">
+        <p>Email: xxlin@wisc.com</p>
+        <p>Phone: 608 7700 769</p>
+        <p>&copy; 2024 Xiaoxue Lin</p>
+    </footer>
+
+</body>
+</html>
+
